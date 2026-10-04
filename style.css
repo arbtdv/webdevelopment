@@ -9,3 +9,64 @@ p {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+.hero {
+    background-color: #6B4E3D;
+    color: #F2E8DC;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: white;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
+
+.hero p {
+    font-family: 'Open Sans', sans-serif;
+    color: #F2E8DC;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #C94F3D;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    background-color: #F2E8DC;
+    color: #6B4E3D;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
