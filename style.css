@@ -69,4 +69,13 @@ p {
         font-size: 16px;
     }
 }
-
+.resume-link {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border: 2px solid #6B4E3D;
+    background-color: #F2E8DC;
+    color: #6B4E3D;
+    border-radius: 5px;
+    text-decoration: none;
+}
