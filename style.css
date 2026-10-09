@@ -79,3 +79,14 @@ p {
     border-radius: 5px;
     text-decoration: none;
 }
+.interests-list {
+    list-style-type: square;
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.interests-list li {
+    font-size: 18px;
+    color: #6B4E3D;
+    margin-bottom: 10px;
+}
