@@ -1,0 +1,46 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6B4E3D;
+  padding: 15px 25px;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #F2E8DC;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #C94F3D;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+}
