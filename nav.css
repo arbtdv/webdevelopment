@@ -44,3 +44,31 @@ nav a:focus {
     justify-content: center;
   }
 }
+
+
+/* Dropdown Navigation Styles */
+nav li {
+    position: relative;
+}
+
+nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #6B4E3D;
+    padding: 10px;
+    min-width: 140px;
+    z-index: 10;
+}
+
+nav .dropdown-menu li {
+    padding: 8px;
+}
+
+/* Show Dropdown on Hover or Focus */
+nav li:hover > .dropdown-menu,
+nav li:focus-within > .dropdown-menu {
+    display: block;
+}
+
