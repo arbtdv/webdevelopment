@@ -90,3 +90,29 @@ p {
     color: #6B4E3D;
     margin-bottom: 10px;
 }
+
+
+/* Reflection Page Box Model */
+.reflection-box {
+    background-color: #F2E8DC;
+    border: 2px solid #6B4E3D;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* First Letter Pseudo-Element */
+.first-paragraph::first-letter {
+    font-size: 200%;
+    color: #C94F3D;
+    font-weight: bold;
+}
+
+/* First Line Pseudo-Element - Paragraphs 2-4 */
+.reflection-box p:not(.first-paragraph)::first-line {
+    font-weight: 500;
+}
+
+/* Indent Paragraphs 2-4 */
+.reflection-box p:not(.first-paragraph) {
+    text-indent: 30px;
+}
