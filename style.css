@@ -116,3 +116,26 @@ p {
 .reflection-box p:not(.first-paragraph) {
     text-indent: 30px;
 }
+
+
+.about-media {
+    margin: 30px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-photo {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.resume-video {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
