@@ -158,3 +158,55 @@ footer p {
   margin: 10px;
 }
 
+@media print {
+    @page {
+        margin: 1in;
+    }
+
+    body:has(.education-list) {
+        font-family: Georgia, "Times New Roman", serif;
+        color: black !important;
+        background: white !important;
+        margin: 0;
+    }
+
+    body:has(.education-list) header,
+    body:has(.education-list) main h2,
+    body:has(.education-list) main h3,
+    body:has(.education-list) .interests-list,
+    body:has(.education-list) .resume-link,
+    body:has(.education-list) .about-media,
+    body:has(.education-list) main > p:nth-of-type(n+3),
+    body:has(.education-list) footer img {
+        display: none !important;
+    }
+
+    body:has(.education-list) main,
+    body:has(.education-list) footer {
+        background: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    body:has(.education-list) main h1,
+    body:has(.education-list) main p,
+    body:has(.education-list) .education-list,
+    body:has(.education-list) .education-list li,
+    body:has(.education-list) footer p {
+        color: black !important;
+        font-family: Georgia, "Times New Roman", serif !important;
+        font-size: 11pt;
+        line-height: 1.3;
+    }
+
+    body:has(.education-list) main h1 {
+        font-size: 20pt;
+        margin-bottom: 12pt;
+    }
+
+    body:has(.education-list) footer {
+        margin-top: 20pt !important;
+    }
+}
+
