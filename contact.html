@@ -30,7 +30,7 @@
     <p>Have a question or want to book a private event?
     Fill out the form below!</p>
 
-    <form action="#" method="post">
+   <form action="#" method="get" onsubmit="event.preventDefault(); alert('Thank you! This is a demonstration form. Your message was not sent.');">
 
       <label for="title">Title</label>
       <select id="title" name="title" required>
