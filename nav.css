@@ -72,3 +72,26 @@ nav li:focus-within > .dropdown-menu {
     display: block;
 }
 
+/* Pasta Mobile Navigation */
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav .dropdown-menu {
+        display: none;
+    }
+}
+
