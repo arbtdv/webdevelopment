@@ -72,26 +72,42 @@ nav li:focus-within > .dropdown-menu {
     display: block;
 }
 
-/* Pasta Mobile Navigation */
 
+/* Pasta Mobile Navigation */
 .hamburger {
     display: none;
+    background: transparent;
+    border: none;
+    color: #F2E8DC;
 }
 
 @media screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+        text-align: center;
+    }
 
     .hamburger {
         display: block;
         font-size: 30px;
         cursor: pointer;
+        margin: 0 auto;
     }
 
-    nav {
+    nav ul {
         display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    nav ul.show {
+        display: flex;
     }
 
     nav .dropdown-menu {
-        display: none;
+        position: static;
     }
 }
 
