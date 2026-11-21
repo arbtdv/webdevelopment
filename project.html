@@ -29,8 +29,8 @@
   <img src="logo.png" alt="My Website Logo">
 
   <nav>
-      <span class="hamburger">☰ 🍝</span>
-    <ul>
+      <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">☰ 🍝</button>
+    <ul id="mobile-nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="project.html">Project</a></li>
@@ -122,5 +122,20 @@
     <footer>
         <p>Addilyn Betts | September 10, 2026</p>
     </footer>
+
+    
+<script>
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector("#mobile-nav");
+
+hamburger.addEventListener("click", function () {
+    menu.classList.toggle("show");
+    hamburger.setAttribute(
+        "aria-expanded",
+        menu.classList.contains("show")
+    );
+});
+</script>
+
 </body>
 </html>
