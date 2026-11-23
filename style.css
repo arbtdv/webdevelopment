@@ -354,3 +354,65 @@ footer p {
     }
 }
 
+
+/* Cooking Experience Table */
+
+.cooking-table-section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.cooking-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #6B4E3D;
+    margin: 20px auto;
+}
+
+.cooking-table caption {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    color: #6B4E3D;
+}
+
+.cooking-table th,
+.cooking-table td {
+    padding: 14px;
+    border: 1px solid #6B4E3D;
+    text-align: left;
+}
+
+.cooking-table thead {
+    background-color: #6B4E3D;
+    color: white;
+}
+
+/* First and third data rows */
+.cooking-table tbody tr:nth-child(odd) {
+    background-color: #F2E8DC;
+}
+
+/* Second and fourth data rows */
+.cooking-table tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+/* Mobile responsive table */
+@media screen and (max-width: 600px) {
+    .cooking-table {
+        font-size: 13px;
+    }
+
+    .cooking-table th,
+    .cooking-table td {
+        padding: 8px;
+    }
+}
+
+
