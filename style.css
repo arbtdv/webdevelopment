@@ -425,4 +425,21 @@ footer p {
     background-repeat: no-repeat;
 }
 
+body {
+    background-color: #6B1D2C;
+    color: #F2E8DC;
+}
+
+main {
+    background-color: #6B1D2C;
+    color: #F2E8DC;
+}
+
+main h1,
+main h2,
+main h3,
+main p {
+    color: #F2E8DC;
+}
+
 
