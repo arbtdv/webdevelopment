@@ -442,4 +442,16 @@ main p {
     color: #F2E8DC;
 }
 
+/* Fix project card text colors */
+.project-card {
+    background-color: #F4EDE4;
+    color: #701C2C;
+}
+
+.project-card h2,
+.project-card h3,
+.project-card p,
+.project-card span {
+    color: #701C2C;
+}
 
