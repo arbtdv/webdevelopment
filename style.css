@@ -455,3 +455,18 @@ main p {
     color: #701C2C;
 }
 
+/* Fix reflection page colors */
+.reflection-page .reflection-box {
+    background-color: #F2E8DC;
+    color: #701C2C;
+}
+
+.reflection-page .reflection-box h2,
+.reflection-page .reflection-box p,
+.reflection-page .reflection-box p::first-letter {
+    color: #701C2C;
+}
+
+.reflection-page main h1 {
+    color: #F2E8DC;
+}
