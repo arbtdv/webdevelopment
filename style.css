@@ -470,3 +470,18 @@ main p {
 .reflection-page main h1 {
     color: #F2E8DC;
 }
+
+/* Fix table colors */
+table tbody td,
+table tbody th {
+    color: #701C2C !important;
+}
+
+table caption {
+    color: #F2E8DC !important;
+}
+
+table thead th {
+    background-color: #701C2C;
+    color: #FFFFFF !important;
+}
